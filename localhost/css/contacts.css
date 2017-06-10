@@ -1,0 +1,101 @@
+form {
+	width: 30%;
+	margin:  1.33em 25% 0 10%;
+	display:inline-block;
+	
+}
+form > i {
+	color: red;
+}
+
+hr {
+	margin-bottom: 20px;
+}
+form input {
+	width: 100%;
+	border: none;
+	height: 30px;
+}
+
+form input:last-child {
+	margin-bottom: 50px;
+}
+
+body > nav {
+	width: 100%;
+	position:relative;
+	padding: 18px 0;
+}
+body ul.breadcrumbs li{
+	list-style: none;
+	display: inline-block;
+	font-size:1rem;
+	width: 7%;
+	text-align:center;
+}
+
+body ul.breadcrumbs li:last-child,
+body ul.breadcrumbs li:first-child{
+	width: 46%;
+	text-align:right;
+}
+
+body ul.breadcrumbs li:last-child{
+	text-align:left;
+}
+body ul.breadcrumbs {
+	font-size:0;
+	margin-left: 70%;
+	margin-right: 10%;
+	padding:0;
+	width: 20%;
+	right: 0;
+}
+
+body ul.breadcrumbs li a {
+	padding-right: 10px;
+}
+
+body .info {
+	display: inline-block;
+	vertical-align:top;
+	width: 24%;
+	margin-right: 10%;
+}
+
+body .info ul {
+	padding:0;
+	margin:0;
+}
+
+body .info ul li{
+	padding:0;
+	list-style:none;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	margin-bottom: 20px;
+}
+
+body .info ul li i {
+	display:block;
+	float:left;
+	line-height:40px;
+	text-align:center;
+	background-color: rgb(74, 125, 98);
+	color:white;
+	border-radius:50%;
+	width: 40px;
+	height:40px;
+	margin-right: 10px;
+}
+
+body > h2 {
+	width: 80%;
+	display: block;
+	padding: 0 10%;
+	height: 90px;
+	background-color: buttonface;
+	line-height:90px;
+	margin-top:0;
+}

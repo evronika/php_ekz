@@ -1,0 +1,116 @@
+div.logo {
+	height:100px;
+	line-height:100px;
+	text-align:center;
+}
+
+h2#shop {
+	margin-top: 250px;
+}
+
+h2#blog {
+	margin-top: 30px;
+}
+
+.shop,
+.blog{
+	width: 90%;
+	margin: 0 auto;
+	height: 300px;
+	font-size:0;
+	z-index:100;
+	position:relative;
+	text-align: center;
+}
+h2 {
+	width: 85%;
+	margin: 0 auto;
+	font-size: 1.2rem;
+}
+.text{
+	margin:0 auto;
+	height: 60px;
+	z-index:100;
+	position:relative;
+	text-align:center;
+	line-height:60px;
+	color:white;
+}
+
+.text.one{
+	margin-top:200px;
+	width: 25%;
+	background-color: rgba(98, 168, 131, 0.86);
+	font-size:1.5rem;
+}
+.text.two{
+	margin-bottom:150px;
+	background-color: rgba(74, 125, 98, 0.86);
+	width: 35%;
+	font-size:1.5rem;
+}
+
+
+.shop div{
+	width: 21%;
+	display: inline-block;
+	font-size:0.9rem;
+	margin:0 2% 0 2%;
+}
+
+.blog div{
+	width: 30%;
+	display: inline-block;
+	font-size:0.9rem;
+	margin:0 1.5% 0 1.5%;
+	max-width:350px;
+}
+
+s {
+	width: 30px;
+	height:20px;
+	color: buttonface;
+}
+
+.shop div img,
+.blog div img{
+	width: 100%;
+	height: 60%;
+	min-height: 150px;
+	max-width:350px;
+}
+hr {
+	margin:0;
+}
+.img {
+	position:relative;
+	height:100%;
+}
+
+
+span.sale {
+	display: inline-block;
+	position:relative;
+	right: -45%;
+	color:white;
+	line-height:50px;
+	top:40px;
+	background-color: rgb(74, 125, 98);
+	height:50px;
+	width:50px;
+	border-radius:50%;
+}
+.oboi {
+	width: 100%;
+	height: 500px;
+	position:absolute;
+	z-index:1;
+}
+div.logo a {
+	font-size: 2.4rem;
+	color: rgb(98, 168, 131);
+	font-family: Cambria;
+}
+div.logo a i {
+	color: grey;
+}

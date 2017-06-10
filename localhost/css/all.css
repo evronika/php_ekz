@@ -1,0 +1,115 @@
+body {
+	margin: 0 auto;
+	padding:0;
+	font: 1rem black;
+	
+	font-family: Cambria;
+}
+
+a {
+	text-decoration:none;
+	color: grey;
+}
+
+hr {
+	background-color: buttonface;
+	color: buttonface;
+	margin:0;
+	height:1px;
+}
+
+h2,
+span,
+.img,
+input,
+li {
+	color: grey;
+}
+.activeSection {
+	border-top: 2px solid rgb(98, 168, 131);	
+}
+header span.activeSection{
+	border: none;
+}
+
+span.activeSection > hr{
+	position:relative;
+	bottom: 12px;
+	background-color: rgb(98, 168, 131);	/* Цвет линии для браузера Firefox и Opera */
+    height: 2px;
+	margin:0;
+	padding:0;
+	color: rgb(98, 168, 131);	
+}
+
+header {
+	background-color: white;
+	width: 100%;
+	height: 90px;
+	text-align:center;
+}
+header nav:not(.nav){
+	text-align:right;
+	width: 95%;
+	margin:0 auto;
+	padding-right: 5%;
+	padding: 10px 0;
+}
+header .nav {
+	height: 30px;
+	padding: 10px 0 10px 0;
+}
+header .nav span {
+	height: 100%;
+	display: inline-block;
+}
+header .nav a {
+	display: inline-block;
+	width: 100px;
+    height: 20px;
+}
+header nav a{
+	width: 40px;
+	height:20px;
+	border-right: 1px solid buttonface;
+	padding: 0 10px 0 10px;
+}
+header nav span:first-of-type a{
+	border-left: 1px solid buttonface;
+}
+footer {
+	background-color: rgba(3, 56, 28, 0.72);
+	height: 40px;
+	text-align:center;
+	margin-top: 50px;
+	padding: 10px 0;
+}
+
+footer > span {
+	display: block;
+	width: 20%;
+	padding-right:6%;
+	right:0;
+	position:relative;
+	line-height:40px;
+	height: 100%;
+	text-align:right;
+	float:right;
+	
+}
+
+footer span i {
+	margin-right: 10px;
+	color: white;
+}
+
+footer .absolute{
+	position:absolute;
+	width: 100%;
+	height:40px;
+}
+
+footer .absolute span{
+	color: white;
+	
+}
